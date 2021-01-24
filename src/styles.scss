@@ -1,0 +1,22 @@
+body{
+    background-color: black !important;
+}
+@media only screen and (max-width: 400px) { 
+    .img{
+        width: 60% !important;
+    }
+}
+@media only screen and (max-width: 400px) { 
+    .imgD{
+        width: 30% !important;
+    }
+    .bd-dr{
+        margin-right: 5% !important;
+    }
+}
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+::ng-deep .card{
+    margin: auto !important;
+}
+
